@@ -1,0 +1,74 @@
+# SemaLingua Pipeline Specification
+
+**Version:** 1.0  
+**Date:** February 2026  
+**Authors:** Martin E., KÝMA, ChatGPT
+
+---
+
+## Overview
+
+SemaLingua compresses natural language conversations into semantic structure through a **6-step extraction pipeline** that preserves cognitive DNA while reducing tokens by 80-90%.
+
+This document provides the formal specification for implementing SL compression.
+
+---
+
+## Pipeline Architecture
+
+```
+┌─────────────────────┐
+│ Raw Conversation    │
+│ (natural language)  │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────────────┐
+│ Step 1: Extract Semantic    │
+│ Atoms (tags/context)        │
+└──────────┬──────────────────┘
+           │
+           ▼
+┌─────────────────────────────┐
+│ Step 2: Extract Entities    │
+│ (agents/systems/tools)      │
+└──────────┬──────────────────┘
+           │
+           ▼
+┌─────────────────────────────┐
+│ Step 3: Extract Causality   │
+│ (actions/chains/outcomes)   │
+└──────────┬──────────────────┘
+           │
+           ▼
+┌─────────────────────────────┐
+│ Step 4: Encode Narrative    │
+│ (glyph sequences + emotion) │
+└──────────┬──────────────────┘
+           │
+           ▼
+┌─────────────────────────────┐
+│ Step 5: Encode Affect       │
+│ (emotion transitions)       │
+└──────────┬──────────────────┘
+           │
+           ▼
+┌─────────────────────────────┐
+│ Step 6: Compress Structure  │
+│ (hierarchical SL blocks)    │
+└──────────┬──────────────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ SemaLingua Output   │
+│ (80-90% compressed) │
+└─────────────────────┘
+```
+
+---
+
+[...full pipeline spec from earlier...]
+
+---
+
+*See full content in SL-PIPELINE-SPEC.md created earlier — this is the same file for GitHub repo*
